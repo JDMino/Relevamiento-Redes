@@ -98,3 +98,12 @@ summary{font:600 11.5px var(--mono);letter-spacing:.14em;text-transform:uppercas
 #subtabs{display:flex;gap:6px;overflow-x:auto;margin:-2px 0 12px;padding-bottom:4px}#subtabs[hidden]{display:none}
 #subtabs button{flex:none;font:500 12.5px var(--mono);padding:7px 12px;border-radius:8px;border:1px solid var(--ln);background:var(--pn);color:var(--ink);cursor:pointer}
 #subtabs button[aria-selected=true]{border-color:var(--pk);color:var(--pk);box-shadow:0 0 0 1px var(--pk)}
+
+/* Pie y modal de herramientas */
+.ft{margin-top:20px;padding-top:14px;border-top:1px solid var(--ln);display:flex;gap:12px;flex-wrap:wrap}
+#td{max-width:min(900px,95vw)}.ac{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.ac summary{text-transform:none;letter-spacing:0;font:600 14.5px var(--head);color:var(--ink)}
+.ac .bd{padding:0 14px 14px}.ac .bd p{margin:0 0 10px}
+.tw{overflow-x:auto;border:1px solid var(--ln);border-radius:8px}
+.tt{width:100%;min-width:560px;border-collapse:collapse;font-size:13px}.tt th,.tt td{text-align:left;vertical-align:top;padding:9px 11px;border-left:1px solid var(--ln);color:var(--ink)}
+.tt th:first-child,.tt td:first-child{border-left:0}.tt th{font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);background:var(--bg)}.tt td{border-top:1px solid var(--ln);line-height:1.5}
